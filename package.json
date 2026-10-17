@@ -1,0 +1,22 @@
+{
+  "name": "student-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js",
+    "dev" : "nodemon index.js",
+    "dev:inspect" : "nodemon --inspect=9229 index.js",
+    "debug" : "nodemon --inspect-brk=127.0.0.1:9229 index.js"
+  },
+  "author": "haseeb",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
